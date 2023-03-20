@@ -1,0 +1,890 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+  <title>Manish Baral</title>
+  <meta name="title" content="Manish - Perosonal Blog Website">
+  <meta name="description" content="This is my self blog page">
+
+ 
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+ 
+  <link rel="preload" as="image" href="./assets/images/hero-banner.png">
+  <link rel="preload" as="image" href="./assets/images/pattern-2.svg">
+  <link rel="preload" as="image" href="./assets/images/pattern-3.svg">
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./assets/images/manish.png" width="119" height="37" alt="Manish logo">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="#" class="logo">
+            <img src="./assets/images/logo.svg" width="119" height="37" alt="Manish logo">
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link hover-1" data-nav-toggler>Home</a>
+          </li>
+
+          <li>
+            <a href="#topics" class="navbar-link hover-1" data-nav-toggler>Skills</a>
+          </li>
+
+
+          <li>
+            <a href="#recent" class="navbar-link hover-1" data-nav-toggler>Projects</a>
+          </li>
+
+          <li>
+            <a href="#contact" class="navbar-link hover-1" data-nav-toggler>Contact</a>
+          </li>
+
+        </ul>
+
+
+
+      </nav>
+
+
+
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero" id="home" aria-label="home">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <p class="hero-subtitle">Hello Everyone!</p>
+
+            <h1 class="headline headline-1 section-title">
+              I’m <span class="span">Manish Baral</span>
+            </h1>
+
+            <p class="hero-text">
+             I am a backend and database developer currently studying computer engineering in Kathmandu University
+
+            </p>
+
+
+
+          </div>
+
+          <div class="hero-banner">
+
+            <img src="./assets/images/hero-banner.png" width="500" height="700" alt="Manish Baral" class="w-100">
+
+            <img src="./assets/images/pattern-2.svg" width="27" height="26" alt="shape" class="shape shape-1">
+
+            <img src="./assets/images/pattern-3.svg" width="27" height="26" alt="shape" class="shape shape-2">
+
+          </div>
+
+          <img src="./assets/images/shadow-1.svg" width="500" height="800" alt="" class="hero-bg hero-bg-1">
+
+          <img src="./assets/images/shadow-2.svg" width="500" height="500" alt="" class="hero-bg hero-bg-2">
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #TOPICS
+      -->
+
+      <section class="topics" id="topics" aria-labelledby="topic-label">
+        <div class="container">
+
+          <div class="card topic-card">
+
+            <div class="card-content">
+
+              <h2 class="headline headline-2 section-title card-title" id="topic-label">
+                Videos
+              </h2>
+
+              <p class="card-text">
+                Check out my videos form youtube
+              </p>
+
+              <div class="btn-group">
+                
+                <button class="btn-icon" aria-label="previous" data-slider-prev>
+            
+                  <ion-icon name="arrow-back" aria-hidden="true"></ion-icon>
+                </button>
+
+                <button class="btn-icon" aria-label="next" data-slider-next>
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </button>
+              </div>
+
+            </div>
+
+            <div class="slider" data-slider>
+              <ul class="slider-list" data-slider-container>
+
+
+
+                <li class="slider-item">
+                  <a href="https://www.youtube.com/watch?v=WLJ4ijdgVZQ" class="slider-card">
+
+                    <figure class="slider-banner img-holder" style="--width: 507; --height: 618;">
+                      <img src="./assets/images/topic-2.png" width="507" height="618" loading="lazy" alt="Travel"
+                        class="img-cover">
+                    </figure>
+
+                    <div class="slider-content">
+                      <span class="slider-title">Git Tutorial</span>
+
+                      
+                    </div>
+
+                  </a>
+                </li>
+
+                <li class="slider-item">
+                  <a href="https://www.youtube.com/watch?v=u-4jmsoN-Xo" class="slider-card">
+
+                    <figure class="slider-banner img-holder" style="--width: 507; --height: 618;">
+                      <img src="./assets/images/topic-3.png" width="507" height="618" loading="lazy" alt="Design"
+                        class="img-cover">
+                    </figure>
+
+                    <div class="slider-content">
+                      <span class="slider-title">Terminal commands</span>
+
+                      
+                    </div>
+
+                  </a>
+                </li>
+
+                <li class="slider-item">
+                  <a href="https://www.youtube.com/watch?v=Xqc_TNn3J9I" class="slider-card">
+
+                    <figure class="slider-banner img-holder" style="--width: 507; --height: 618;">
+                      <img src="./assets/images/topic-4.png" width="507" height="618" loading="lazy" alt="Movie"
+                        class="img-cover">
+                    </figure>
+
+                    <div class="slider-content">
+                      <span class="slider-title">Pishing attack</span>
+
+                      
+                    </div>
+
+                  </a>
+                </li>
+                <li class="slider-item">
+                  <a href="https://www.youtube.com/watch?v=87dSAGraD-Y" class="slider-card">
+
+                    <figure class="slider-banner img-holder" style="--width: 507; --height: 618;">
+                      <img src="./assets/images/topic-1.png" width="507" height="618" loading="lazy" alt="Sport"
+                        class="img-cover">
+                    </figure>
+
+                    <div class="slider-content">
+                      <span class="slider-title">Autocopy Script</span>
+
+                    </div>
+
+                  </a>
+                </li>
+
+
+              </ul>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+
+
+
+
+      <!-- 
+        - #Tools USed
+      -->
+
+      <section class="tags" aria-labelledby="tag-label">
+        <div class="container">
+
+          <h2 class="headline headline-2 section-title" id="tag-label">
+            <span class="span">Skills</span>
+          </h2>
+
+
+          <ul class="grid-list">
+
+            <li>
+              <button class="card tag-btn">
+                <img src="./assets/images/django.png" width="32" height="32" loading="lazy" alt="Travel">
+
+                <p class="btn-text">Django</p>
+              </button>
+            </li>
+
+            <li>
+              <button class="card tag-btn">
+                <img src="./assets/images/flutter.png" width="32" height="32" loading="lazy" alt="Culture">
+
+                <p class="btn-text">Flutter</p>
+              </button>
+            </li>
+
+            <li>
+              <button class="card tag-btn">
+                <img src="./assets/images/sql.png" width="32" height="32" loading="lazy" alt="Lifestyle">
+
+                <p class="btn-text">SQL</p>
+              </button>
+            </li>
+
+            <li>
+              <button class="card tag-btn">
+                <img src="./assets/images/linux.png" width="32" height="32" loading="lazy" alt="Fashion">
+
+                <p class="btn-text">Linux</p>
+              </button>
+            </li>
+
+            <li>
+              <button class="card tag-btn">
+                <img src="./assets/images/firebase.png" width="32" height="32" loading="lazy" alt="Food">
+
+                <p class="btn-text">Firebase</p>
+              </button>
+            </li>
+
+            <li>
+              <button class="card tag-btn">
+                <img src="./assets/images/git.png" width="32" height="32" loading="lazy" alt="Space">
+
+                <p class="btn-text">Git</p>
+              </button>
+            </li>
+
+            <li>
+              <button class="card tag-btn">
+                <img src="./assets/images/php.png" width="32" height="32" loading="lazy" alt="Animal">
+
+                <p class="btn-text">PHP</p>
+              </button>
+            </li>
+
+            <li>
+              <button class="card tag-btn">
+                <img src="./assets/images/frontend.png" width="32" height="32" loading="lazy" alt="Minimal">
+
+                <p class="btn-text">A bit of Frontend</p>
+              </button>
+            </li>
+
+            <li>
+              <button class="card tag-btn">
+                <img src="./assets/images/docker.png" width="32" height="32" loading="lazy" alt="Interior">
+
+                <p class="btn-text">Docker</p>
+              </button>
+            </li>
+
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #RECENT POST
+      -->
+
+      <section class="section recent-post" id="recent" aria-labelledby="recent-label">
+        <div class="container">
+
+          <div class="post-main">
+
+            <h2 class="headline headline-2 section-title">
+              <span class="span">Projects</span>
+            </h2>
+
+
+            <ul class="grid-list">
+
+              <li>
+                <div class="recent-post-card">
+
+                  <figure class="card-banner img-holder" style="--width: 271; --height: 258;">
+                    <img src="./assets/images/booksforme.png" width="271" height="258" loading="lazy"
+                      alt="Book Recommendation Web App" class="img-cover">
+                  </figure>
+
+                  <div class="card-content">
+
+                    <a href="https://github.com/K-adu/Recommendation-system-web-app" class="card-badge">BooksForME</a>
+
+                    <h3 class="headline headline-3 card-title">
+                      <a  class="link hover-2">Book Recommendation Web App</a>
+                    </h3>
+
+                    <p class="card-text">
+                      Web App built using HTML, CSS, JS, MySQL and a recommendation system built using python that use colaborative filtering
+                      model to recommend books.
+                    </p>
+
+                    </div>
+
+                  </div>
+
+                
+              </li>
+
+              <li>
+                <div class="recent-post-card">
+
+                  <figure class="card-banner img-holder" style="--width: 271; --height: 258;">
+                    <img src="./assets/images/travelnepal.jpg" width="271" height="258" loading="lazy"
+                      alt="Book Recommendation Web App" class="img-cover">
+                  </figure>
+
+                  <div class="card-content">
+
+                    <a href="https://github.com/physicistgaurav/Fruitstagging" class="card-badge">Travel Nepal</a>
+
+                    <h3 class="headline headline-3 card-title">
+                      <a  class="link hover-2">App for travel lovers</a>
+                    </h3>
+
+                    <p class="card-text">
+                      User freindly mobile app built using Flutter, Firebase, Python with chatbot. 
+                      Features: hotel and flight booking, map, blog page, car rental, chat bot, map.
+                    </p>
+
+                    </div>
+
+                  </div>
+
+                
+              </li>
+
+
+              <li>
+                <div class="recent-post-card">
+
+                  <figure class="card-banner img-holder" style="--width: 271; --height: 258;">
+                    <img src="./assets/images/criptify.jpg" width="271" height="258" loading="lazy"
+                      alt="Book Recommendation Web App" class="img-cover">
+                  </figure>
+
+                  <div class="card-content">
+
+                    <a href="https://github.com/K-adu/Encryption-Using-Chaotic-Neural-Network" class="card-badge">Criptify</a>
+
+                    <h3 class="headline headline-3 card-title">
+                      <a  class="link hover-2">Encription using Chaotic Neural Netowrk</a>
+                    </h3>
+
+                    <p class="card-text">
+                     A web app that encrypt a given text using Chaotic Dynamic Function in the activation layer making the encryption random like chaos.
+                     built using Html, CSS, Js, MySQL, Matlab for the dynamicfunction implementation.
+                    </p>
+
+                    </div>
+
+                  </div>
+
+                
+              </li>
+
+
+
+              <li>
+                <div class="recent-post-card">
+
+                  <figure class="card-banner img-holder" style="--width: 271; --height: 258;">
+                    <img src="./assets/images/fruittag.jpg" width="271" height="258" loading="lazy"
+                      alt="Book Recommendation Web App" class="img-cover">
+                  </figure>
+
+                  <div class="card-content">
+
+                    <a href="https://github.com/K-adu/Recommendation-system-web-app" class="card-badge">FruitTag</a>
+
+                    <h3 class="headline headline-3 card-title">
+                      <a  class="link hover-2">A fruit tagging application</a>
+                    </h3>
+
+                    <p class="card-text">
+                      A kid friendly mobile app with a multilabel classifier of 36 different fruits with quiz, description, pronouncation.
+                      Built using- Flutter, Firebase, Python
+                    </p>
+
+                    </div>
+
+                  </div>
+
+                
+              </li>
+
+
+
+              <li>
+                <div class="recent-post-card">
+
+                  <figure class="card-banner img-holder" style="--width: 271; --height: 258;">
+                    <img src="./assets/images/stock.png" width="271" height="258" loading="lazy"
+                      alt="Book Recommendation Web App" class="img-cover">
+                  </figure>
+
+                  <div class="card-content">
+
+                    <a href="https://github.com/K-adu/Stockmarketprediction" class="card-badge">StockMarketPrediction</a>
+
+                    <h3 class="headline headline-3 card-title">
+                      <a  class="link hover-2">Implementation of LSTM model to predict stock market price+</a>
+                    </h3>
+
+                    <p class="card-text">
+                      LSTM model implementation using Python liabiries(numpy, pandas, matplotlib, scipy). Web scrapping of data from yahoo finance.
+                      Implementation of NABIL bank stock price too.
+                    </p>
+
+                    </div>
+
+                  </div>
+
+                
+              </li>
+
+            </ul>
+
+            <nav aria-label="pagination" class="pagination">
+
+              <a href="#" class="pagination-btn" aria-label="previous page">
+                <ion-icon name="arrow-back" aria-hidden="true"></ion-icon>
+              </a>
+
+              <a href="#" class="pagination-btn">1</a>
+              <a href="#" class="pagination-btn">2</a>
+              <a href="#" class="pagination-btn">3</a>
+              <a href="#" class="pagination-btn" aria-label="more page">...</a>
+
+              <a href="#" class="pagination-btn" aria-label="next page">
+                <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+              </a>
+
+            </nav>
+
+          </div>
+
+          <div class="post-aside grid-list">
+
+            <div class="card aside-card">
+
+              <h3 class="headline headline-2 aside-title" id="contact">
+                <span class="span">Reach Me on</span>
+              </h3>
+<!-- 
+  -#contact
+ -->
+              <ul class="popular-list" >
+
+                <li>
+                  <div class="popular-card">
+
+                    <figure class="card-banner img-holder" style="--width: 64; --height: 64;">
+                      <img src="./assets/images/github.png" width="64" height="64" loading="lazy"
+                        alt="Linus Torvalds" class="img-cover">
+                    </figure>
+
+                    <div class="card-content">
+
+                      <h4 class="headline headline-4 card-title">
+                        <a href="https://github.com/K-adu" class="link hover-2">K-adu</a>
+                      </h4>
+
+
+                    </div>
+
+                  </div>
+                </li>
+
+                <li>
+                  <div class="popular-card">
+
+                    <figure class="card-banner img-holder" style="--width: 64; --height: 64;">
+                      <img src="./assets/images/twitter.jpg" width="64" height="64" loading="lazy"
+                        alt="twitter" class="img-cover">
+                    </figure>
+
+                    <div class="card-content">
+
+                      <h4 class="headline headline-4 card-title">
+                        <a href="https://twitter.com/ManisBaral" class="link hover-2">@ManisBaral</a>
+                      </h4>
+
+
+                    </div>
+
+                  </div>
+                </li>
+
+                <li>
+                  <div class="popular-card">
+
+                    <figure class="card-banner img-holder" style="--width: 64; --height: 64;">
+                      <img src="./assets/images/instagram.png" width="64" height="64" loading="lazy"
+                        alt="Every day, in every city and town across the country" class="img-cover">
+                    </figure>
+
+                    <div class="card-content">
+
+                      <h4 class="headline headline-4 card-title">
+                        <a href="#" class="link hover-2">6_shanks_9</a>
+                      </h4>
+
+
+                    </div>
+
+                  </div>
+                </li>
+
+                <li>
+                  <div class="popular-card">
+
+                    <figure class="card-banner img-holder" style="--width: 64; --height: 64;">
+                      <img src="./assets/images/linkedin.png" width="64" height="64" loading="lazy"
+                        alt="Your voice, your mind, your story, your vision" class="img-cover">
+                    </figure>
+
+                    <div class="card-content">
+
+                      <h4 class="headline headline-4 card-title">
+                        <a href="linkedin.com/in/k-adu" class="link hover-2">k-adu</a>
+                      </h4>
+
+      
+
+                    </div>
+
+                  </div>
+                </li>
+
+                <li>
+                  <div class="popular-card">
+
+                    <figure class="card-banner img-holder" style="--width: 64; --height: 64;">
+                      <img src="./assets/images/youtube.png" width="64" height="64" loading="lazy"
+                        alt="youtube" class="img-cover">
+                    </figure>
+
+                    <div class="card-content">
+
+                      <h4 class="headline headline-4 card-title">
+                        <a href="https://www.youtube.com/@msfconsole6939" class="link hover-2">msfconsole69</a>
+                      </h4>
+
+             
+
+                    </div>
+
+                  </div>
+                </li>
+
+              </ul>
+
+            </div>
+
+
+            <div class="post-aside grid-list">
+
+              <div class="card aside-card">
+  
+                <h3 class="headline headline-2 aside-title" id="hobbies">
+                  <span class="span">Hobbies</span>
+                </h3>
+  <!-- 
+    -#Hobbies
+   -->
+                <ul class="popular-list" >
+  
+                  <li>
+                    <div class="popular-card">
+  
+                      <figure class="card-banner img-holder" style="--width: 64; --height: 64;">
+                        <img src="./assets/images/linux.png" width="64" height="64" loading="lazy"
+                          alt="twitter" class="img-cover">
+                      </figure>
+  
+                      <div class="card-content">
+  
+                        <h4 class="headline headline-4 card-title">
+                          Linux
+                        </h4>
+  
+  
+                      </div>
+  
+                    </div>
+                  </li>
+  
+                  <li>
+                    <div class="popular-card">
+  
+                      <figure class="card-banner img-holder" style="--width: 64; --height: 64;">
+                        <img src="./assets/images/sports.png" width="64" height="64" loading="lazy"
+                          alt="twitter" class="img-cover">
+                      </figure>
+  
+                      <div class="card-content">
+  
+                        <h4 class="headline headline-4 card-title">
+                          Sports
+                        </h4>
+  
+  
+                      </div>
+  
+                    </div>
+                  </li>
+  
+                  <li>
+                    <div class="popular-card">
+  
+                      <figure class="card-banner img-holder" style="--width: 64; --height: 64;">
+                        <img src="./assets/images/cooking.png" width="64" height="64" loading="lazy"
+                          alt="Every day, in every city and town across the country" class="img-cover">
+                      </figure>
+  
+                      <div class="card-content">
+  
+                        <h4 class="headline headline-4 card-title">
+                          <a href="#" class="link hover-2">Cooking</a>
+                        </h4>
+  
+  
+                      </div>
+  
+                    </div>
+                  </li>
+  
+                  <li>
+                    <div class="popular-card">
+  
+                      <figure class="card-banner img-holder" style="--width: 64; --height: 64;">
+                        <img src="./assets/images/guitar.png" width="64" height="64" loading="lazy"
+                          alt="Your voice, your mind, your story, your vision" class="img-cover">
+                      </figure>
+  
+                      <div class="card-content">
+  
+                        <h4 class="headline headline-4 card-title">
+                          Guitar
+                        </h4>
+  
+        
+  
+                      </div>
+  
+                    </div>
+                  </li>
+  
+                  <li>
+                    <div class="popular-card">
+  
+                      <figure class="card-banner img-holder" style="--width: 64; --height: 64;">
+                        <img src="./assets/images/gym.png" width="64" height="64" loading="lazy"
+                          alt="youtube" class="img-cover">
+                      </figure>
+  
+                      <div class="card-content">
+  
+                        <h4 class="headline headline-4 card-title">
+                          Gym
+                        </h4>
+  
+               
+  
+                      </div>
+  
+                    </div>
+                  </li>
+  
+                </ul>
+  
+              </div>
+
+
+  
+      </section>
+
+    </article>
+  </main> 
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer>
+    <div class="container">
+
+      <div class="card footer">
+
+        <div class="section footer-top">
+
+          <div class="footer-brand">
+
+
+            <p class="footer-text">
+              Fell Free to reach out to me :)
+            </p>
+
+            <p class="footer-list-title">Email and Phone</p>
+
+            <address class="footer-text address">
+              manishbaral112@gmail.com <br>
+              +977 9863474868
+            </address>
+
+          </div>
+
+
+
+          <div class="footer-list">
+
+            <p class="footer-list-title">Queries?</p>
+
+            <p class="footer-text">
+              I will respond to you as soon as i am available.
+            </p>
+
+            <div class="input-wrapper">
+              <input type="text" name="name" placeholder="Your name" required class="input-field" autocomplete="off">
+
+              <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+            </div>
+
+            <div class="input-wrapper">
+              <input type="email" name="email_address" placeholder="Emaill address" required class="input-field"
+                autocomplete="off">
+
+              <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+            </div>
+            <div class="input-wrapper">
+              <input type="text" name="te4xt" placeholder="Ask...." required class="input-field"
+                autocomplete="off">
+
+              
+            </div>
+
+            <a href="#" class="btn btn-primary">
+              <span class="span">Send</span>
+
+              <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+            </a>
+
+          </div>
+
+        </div>
+
+
+
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="arrow-up-outline" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
